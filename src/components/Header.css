@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    background-color: rgb(231, 231, 231);
+}
+
+.container{
+    background-color: blue;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    height: fit-content;
+    margin: 0;
+    font-family: cursive;
+}
+li{
+    text-align: center;
+    flex: 6;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+li:hover{
+    color: yellow;
+}
